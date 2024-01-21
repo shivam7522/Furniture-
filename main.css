@@ -82,7 +82,7 @@ header.active .bars img{
 header.active .logo a {
     color: var(--main-color);
 }
-@media(max-width:991px){
+@media(max-width:360px){
     header .navigation{
         position: absolute;
         top: 70px;
