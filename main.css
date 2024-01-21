@@ -1065,3 +1065,34 @@ header.active .bars img{
     border-color: #f9f9f9;
     columns: #fff;
 }
+
+.footer-end{
+   background: #4abcc4;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.footer-end-logo i{
+    font-size: 25px;
+}
+.footer-end-logo p{
+    text-align: center;
+    margin-left: -5px;
+    margin-bottom: -0px;
+}
+@media(max-width: 360px){
+    .footer-end{
+        display: flex;
+    }
+    .top{
+        margin-bottom: 65px;
+    }
+    .copy{
+        padding-bottom: 40px;
+    }
+}
