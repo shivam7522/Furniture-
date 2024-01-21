@@ -75,4 +75,8 @@ function toTop(){
         scrollTo(0,0);
     }
 }
-toTop()
+toTop();
+
+function myhome(){
+    location.replace('./index.html')
+}
