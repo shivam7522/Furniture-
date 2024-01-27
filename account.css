@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --main-color: #207178;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #207178;
+    width: 100%;
+    padding: 15px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1111;
+    transform: .5s ease-in-out;
+}
+
+header .logo img {
+    width: 40px;
+    margin-top: -5px;
+    padding-left: 5px;
+}
+
+header .logo a {
+    font-size: 35px;
+    font-family: 'Fenix', serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    margin: 0;
+}
+
+header ul li {
+    margin: 0px 15px;
+    color: var(--main-color);
+}
+
+header ul li a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    transform: 4s;
+}
+
+header.active ul li a {
+    text-decoration: none;
+    display: block;
+    color: var(--main-color);
+    text-transform: uppercase;
+    transform: 4s;
+}
+
+header ul li a:hover {
+    color: pink;
+}
+
+header .bars {
+    display: none;
+}
+
+header .bars img {
+    width: 30px;
+}
+
+header.active {
+    background: #fff;
+    box-shadow: 1px 0px 0px #DDD;
+}
+
+header.active .bars img {
+    padding: 4px 5px;
+    color: var(--main-color);
+    background: var(--main-color);
+    width: 33px;
+    border-radius: 3px;
+}
+
+header.active .logo a {
+    color: var(--main-color);
+}
+
+@media(max-width:360px) {
+    header .navigation {
+        position: absolute;
+        top: 70px;
+        right: -50%;
+        width: 30%;
+        height: 100v;
+        background: #fff;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: .5s ease-in-out;
+        box-shadow: -1px 0px, 0px, #DDD;
+    }
+
+    header .navigation li {
+        margin: 11px 0px;
+    }
+
+    header .bars {
+        display: block;
+    }
+
+}
+
+.footer-end {
+    background: #4abcc4;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-end-logo i {
+    font-size: 20px;
+    margin-left: -10;
+}
+
+.footer-end-logo p {
+    font-size: 15px;
+    margin-left: -5px;
+    margin-bottom: -10px;
+}
+
+.footer-end-logo #catagories{
+    margin-left: 15px;
+}
+.footer-end-logo #notification{
+    margin-left: 22px;
+}
+.footer-end-logo #account{
+    margin-left: 12px;
+}
+.footer-end-logo #cart{
+    margin-left: -5px;
+}
+
+@media(max-width: 360px) {
+    .footer-end {
+        display: flex;
+    }
+
+    .top {
+        margin-bottom: 80px;
+    }
+
+    .copy {
+        padding-bottom: 40px;
+    }
+}

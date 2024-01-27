@@ -78,7 +78,7 @@ header.active .bars img{
     background: var(--main-color);
     width: 33px;
     border-radius: 3px;
-}
+} 
 header.active .logo a {
     color: var(--main-color);
 }
@@ -1093,8 +1093,21 @@ header.active .logo a {
 .footer-end-logo p{
     text-align: center;
     margin-left: -5px;
-    margin-bottom: -0px;
+    margin-bottom: -5px;
 }
+.footer-end-logo #catagories{
+    margin-left: 15px;
+}
+.footer-end-logo #notification{
+    margin-left: 22px;
+}
+.footer-end-logo #account{
+    margin-left: 12px;
+}
+.footer-end-logo #cart{
+    margin-left: -5px;
+}
+
 @media(max-width: 360px){
     .footer-end{
         display: flex;

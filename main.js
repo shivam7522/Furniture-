@@ -80,3 +80,7 @@ toTop();
 function myhome(){
     location.replace('./index.html')
 }
+function myProfile(){
+    location.replace('./account.html')
+   
+}
