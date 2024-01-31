@@ -136,7 +136,7 @@ header.active .logo a {
 h3{
     font-size: 25px;
     margin-top: -490px;
-    margin-left: 45%;
+    margin-left: 38%;
     font-family: Yu Gothic Medium;
 }
 p{
@@ -184,13 +184,24 @@ label{
     border: none;
     margin-bottom: 60px;
 }
-.new-account a{
-    margin-left: 360px;
-    text-decoration: none; 
+.btn2{
+    margin-top: -50px;
+    margin-left: 275px;
+}
+.btn2 button{
+    font-size: 20px;
+    width: 460px;
+    height: 30px;
+    background:#fff;
+    color: #fff;
+    font-weight:bold;
+    border: none;  
+}.btn2 button a{
+    text-decoration: none;
     color: blue;
     font-weight: bold;
+    font-size: 15px;
 }
-
 @media(max-width: 360px){
     .container{
         width: 1100px;
@@ -239,6 +250,7 @@ label{
     }
     
 }
+
 
 .footer-end {
     background: #4abcc4;

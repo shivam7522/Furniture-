@@ -82,5 +82,5 @@ function myhome(){
 }
 function myProfile(){
     location.replace('./account.html')
-   
+
 }

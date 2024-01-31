@@ -1107,7 +1107,6 @@ header.active .logo a {
 .footer-end-logo #cart{
     margin-left: -5px;
 }
-
 @media(max-width: 360px){
     .footer-end{
         display: flex;
