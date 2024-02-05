@@ -84,3 +84,9 @@ function myProfile(){
     location.replace('./account.html')
 
 }
+function mySignup(){
+    location.replace('./sign-up.html')
+}
+function myLogin(){
+    location.replace('./account.html')
+}

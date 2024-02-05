@@ -12,7 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body></body>
     <header id="header">
         <div class="logo">
             <a href="a">Furniture<img src="" alt=""></a>
@@ -25,59 +25,48 @@
             <li><a href="a">about</a></li>
             <li><a href="a">contact</a></li>
         </ul>
-        <div class="bars">
-            <img id="bar" src="picture/logo.png" alt="">
-        </div>
     </header>
-    <div class="container">
-        <div class="bg-picture">
-            <img src="picture/login-1.avif" alt="">
-            <h3>Sign-up </h3>
-            <p>Sign up your mobile number to get started...</p>
-            <label>Enter Mobile number</label><br>
-            <input class="text" type="text">
-            <div class="terms">
-                <p>
-                    By continuing you agree to Furniture's <a href="">Terms of Use</a>
-                </p>
-            </div>   
-            <div class="btn">
-                <button type="button">CONTINUE</button>
-            </div>   
-            <div class="btn2">
-                <button type="button"><a href="account.html">Existing User? Log in</a></button>
-            </div>
-        </div>
-    </div>
+    <!-- for @meada query -->
 
-    <div class="footer-end">
-        <div class="footer-end-logo">
-            <i class="fa-solid fa-house " onclick="myhome()" id="home"></i>
-            <p>home</p>
+    <div class="sign-header">
+        <img src="picture/x-logo.png" onclick="myLogin()" alt="">
+        <h1>Furniture</h1>
+    </div>
+    <div class="log-in">
+        <h2>Log in for the best experince</h2>
+        <p>Enter your phone number to continue</p>
+         <fieldset>
+            <legend>Phone Number </legend>
+            <input type="text" class="input1">
+         </fieldset>
+         <a href="">Use Email-Id</a>
+         <div class="term-condition">
+            <p>
+                By continuing you agree to Furniture's <a href="">Terms of Use</a><span>and</span><a href="">Privacy Policy</a>
+            </p>
+         </div>
+         <div class="btn5">
+         <button type="button">Continue</button>
+         </div>
+    </div>
+    <!-- End @media header -->
+     
+    <div class="container">
+        <img src="picture/login-1.avif" alt="">
+        <h3>Sign-up </h3>
+        <p>Sign up your mobile number to get started...</p>
+        <label>Enter Mobile number</label>
+        <input class="text1" type="text">
+        <div class="terms">
+            <p>
+                By continuing you agree to Furniture's<a href="">Terms of Use</a>
+            </p>
         </div>
-        <div class="footer-text">
-            <div class="footer-end-logo">
-                <i class="fa-solid fa-layer-group" id="catagories"></i>
-                <p>catagories</p>
-            </div>
+        <div class="btn">
+            <button type="button">CONTINUE</button>
         </div>
-        <div class="footer-text">
-            <div class="footer-end-logo">
-                <i class="fa-solid fa-bell" id="notification"></i>
-                <p>notification</p>
-            </div>
-        </div>
-        <div class="footer-text">
-            <div class="footer-end-logo">
-                <i class="fa-solid fa-user" onclick="myProfile()" id="account"></i>
-                <p>account</p>
-            </div>
-        </div>
-        <div class="footer-text">
-            <div class="footer-end-logo">
-                <i class="fa-solid fa-cart-shopping" id="cart"></i>
-                <p>cart</p>
-            </div>
+        <div class="btn2">
+            <button type="button"><a href="account.html">Existing User? Log in</a></button>
         </div>
     </div>
     <div class="bg-footer">
@@ -119,16 +108,16 @@
                 </div>
             </div>
         </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="main.js"></script>
 </body>
 
 </html>

@@ -11,6 +11,8 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 header {
     background: #207178;
     width: 100%;
@@ -24,7 +26,6 @@ header {
     z-index: 1111;
     transform: .5s ease-in-out;
 }
-
 header .logo img {
     width: 40px;
     margin-top: -5px;
@@ -95,149 +96,287 @@ header.active .logo a {
 }
 
 @media(max-width:360px) {
-    header .navigation {
-        position: absolute;
-        top: 70px;
-        right: -50%;
-        width: 30%;
-        height: 100v;
-        background: #fff;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        transition: .5s ease-in-out;
-        box-shadow: -1px 0px, 0px, #DDD;
+    #header {
+        display: none;
     }
-
-    header .navigation li {
-        margin: 11px 0px;
-    }
-
-    header .bars {
-        display: block;
-    }
-
 }
-.container{
-    background-color:beige;
+.login-bg{
+    display: none;
+    background-color:azure;
     width: 100%;
     height: 100vh;
 }
-.bg-picture{
-    margin-left: 200px;
-    margin-top: 70px;
+.login-content{
+    background-color:#fff;
+    width: 100%;
+    height: 12vh;
+    margin-top: -12px;
 }
-.container .bg-picture img{
-    width: 80%;
-    height: 85vh;
+.login-content h2{
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-top: 10px;
+}.login-content p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+button{
+    width: 100px;
+    height: 33px;
+    background-color: rgba(0, 68, 255, 0.865);
+    color:#fff
+}
+.btn4{
+    margin-left: 240px;
+    margin-top: -105px;
+}
+.btn4  button{
+    border: none;
     border-radius: 5px;
-    margin-top: 15px;  
+    font-weight: bold;
+    font-size: 18px;
 }
-h3{
+
+@media(max-width: 360px){
+    .login-bg{
+        display: block;
+    }
+}
+.account-setting{
+    width: 100%;
+    height: 23vh;
+    background-color: white;
+}.account-setting h2{
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-top: 10px;
+}.language{
+    width: 100%;
+    height: 5vh;
+}
+.language .fa-language{
     font-size: 25px;
-    margin-top: -490px;
-    margin-left: 45%;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.language .fa-angle-right{
+    font-size: 20px;
+    margin-left: 270px;
+}
+.language p{
+    margin-left: 75px;
+    margin-top: -22px;
+}
+.notification{
+    width: 100%;
+    height: 5vh;
+} 
+.notification img{
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.notification .fa-angle-right{
+    font-size: 20px;
+    margin-left: 270px;
+}
+.notification p{
+    margin-left: 75px;
+    margin-top: -22px; 
+}
+.help{
+    width: 100%;
+    height: 5vh;
+}
+.help .fa-headset{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+.help .fa-angle-right{
+    font-size: 20px;
+    margin-left: 270px;
+}
+.help p{
+    margin-left: 75px;
+    margin-top: -22px;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.container img {
+    width: 60%;
+    height: 75vh;
+    margin-top: 90px;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: -440px;
+    margin-left: 55%;
     font-family: Yu Gothic Medium;
 }
-p{
+
+p {
     font-size: 20px;
-    margin-left: 26%;
-    margin-bottom: 100px;
+    margin-left: 40%;
+    margin-bottom: 80px;
 
 }
-label{
-    font-size: 14px;
-    margin-left: 26%;
-    color:rgb(140, 137, 137);
+
+label {
+    font-size: 16px;
+    margin-left: 40%;
+    color: rgb(140, 137, 137);
 }
-.text{
-    background-color:rgba(219, 219, 216, 0.114);
+
+.text {
+    background-color: rgba(219, 219, 216, 0.114);
     width: 460px;
     height: 30px;
     margin-top: 10px;
     font-size: 14px;
-    margin-left: 26%;
+    margin-left: 40%;
     border-left: none;
     border-right: none;
     border-top: none;
 }
-.terms p{
+
+.terms p {
     font-size: 14px;
     margin-top: 20px;
-    color:rgb(140, 137, 137);
+    color: rgb(140, 137, 137);
 
 }
-.terms p a{
+
+.terms p a {
     text-decoration: none;
     color: blue;
 }
-.btn{
-    margin-top: -80px;
-    margin-left: 275px;
+
+.btn {
+    margin-top: -65px;
+    margin-left: 40%;
 }
-.btn button{
+
+.new-account {
+    margin-top: -20px;
+}
+
+.new-account a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 45%;
+    margin-top: -40px;
+}
+
+.btn button {
     width: 460px;
     height: 30px;
     background: rgba(195, 101, 101, 0.886);
     color: #fff;
-    font-weight:bold;
+    font-weight: bold;
     border: none;
     margin-bottom: 60px;
 }
-.new-account a{
-    margin-left: 360px;
-    text-decoration: none; 
-    color: blue;
-    font-weight: bold;
+
+@media(max-width: 360px) {
+    .container img {
+        display: none;
+    }
+
+    .container {
+        display: none;
+    }
 }
 
-@media(max-width: 360px){
-    .container{
-        width: 1100px;
-        height: 200vh;
+.bg-footer .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    grid-row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bg-footer .footer-flex .footer1 {
+    width: 24%;
+}
+
+.footer-flex .footer1 h2 {
+    font-weight: 600px;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+
+.footer-flex .footer1 section {
+    font-size: 14px;
+}
+
+.footer-flex .footer1 li {
+    font-size: 14px;
+}
+
+.footer-flex .footer1 li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.footer-logo {
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.bg-footer hr {
+    background: #f9f9f9;
+    margin: 15px 0px;
+    height: 1px;
+    width: 100%;
+}
+
+.bg-footer .copy {
+    text-align: center;
+}
+
+.bg-footer .copy section {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+@media(max-width: 768px) {
+    .bg-footer .footer-flex .footer1 {
+        width: 49%;
     }
-    .container .bg-picture img{
-        margin-top: 150px;
-        margin-left: -150px;
-        width: 1000px;
-        height: 125vh;
+}
+
+@media(max-width: 576px) {
+    .bg-footer .footer-flex .footer1 {
+        width: 100%;
     }
-    h3{
-        margin-top: -900px;
-        font-size: 50px;
+}
+
+@media(max-width: 360px) {
+    .bg-footer .footer-flex {
+        margin-top: 175px;
     }
-    p{
-        font-size: 30px;
+
+    .bg-footer {
+        display: none;
     }
-    label{
-        font-size: 30px;
-        color:rgba(0, 0, 0, 0.58);
-    }
-    .text{
-        height: 60px;
-        width: 600px;
-    }
-    .terms p{
-        font-size: 25px;
-        margin-top: 40px;
-    }
-    .btn{
-        margin-top: -50px;
-        margin-left: 230px;
-    }
-    .btn button{
-        width: 600px;
-        height: 50px;
-        font-size: 25px;
-        font-weight: bold;
-        margin-bottom: 140px;
-    }
-    .new-account a{
-        font-size: 30px;
-        margin-left: 270px;
-        font-weight: bold;
-    }
-    
 }
 
 .footer-end {
@@ -264,29 +403,18 @@ label{
     margin-bottom: -10px;
 }
 
-.footer-end-logo #catagories{
+.footer-end-logo #catagories {
     margin-left: 15px;
 }
-.footer-end-logo #notification{
+
+.footer-end-logo #notification {
     margin-left: 22px;
 }
-.footer-end-logo #account{
+
+.footer-end-logo #account {
     margin-left: 12px;
 }
-.footer-end-logo #cart{
+
+.footer-end-logo #cart {
     margin-left: -5px;
-}
-
-@media(max-width: 360px) {
-    .footer-end {
-        display: flex;
-    }
-
-    .top {
-        margin-bottom: 80px;
-    }
-
-    .copy {
-        padding-bottom: 40px;
-    }
 }

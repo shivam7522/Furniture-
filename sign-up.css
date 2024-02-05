@@ -11,6 +11,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     background: #207178;
     width: 100%;
@@ -118,187 +119,208 @@ header.active .logo a {
     }
 
 }
-.container{
-    background-color:beige;
+
+.sign-header{
+    background-color: blue;
+    display: none;
+    width: 100%;
+    height: 10vh;
+}
+.sign-header h1{
+    color: #fff;
+    text-align: center;
+    margin-top: -33px;
+}.sign-header img{
+    color: #fff;
+    height: 20px;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+.log-in{
+    display: none;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}.log-in h2{
+    color: rgba(0, 0, 0, 0.838);
+   padding-top: 45px;
+   margin-left: 20px;
+   font-size: 22px;
+}.log-in p{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color:darkgray;
+}
+fieldset{
+    margin-top: -80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 3px;
+    margin-bottom: 15px;
+}
+legend{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.log-in a{
+   margin-left: 218px;
+   font-size: 20px;
+   text-decoration: none;
+   color: blue;
+   font-weight: bolder;
+   
+}
+.term-condition p{
+    font-size: 18px;
+    margin-left: 20px;
+    color: black;
+    line-height: 1.5;
+}
+.term-condition p a{
+    font-size: 18px;
+    margin-left: -3px;
+}
+span{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 7px;
+}
+.btn5{
+    box-shadow: 2px 2px black;
+    background-color: aliceblue;
+    width: 100%;
+    height: 8vh;
+    margin-top: 284px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.886);
+  }
+  .btn5 button{
+    margin-top: 12px;
+    width: 95%;
+    height: 40px;
+    background-color: darkgray;
+    border: none;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media(max-width: 360px) {
+    .sign-header{
+        display: block;
+    }
+    .log-in{
+        display: block;
+    }
+    input{
+        border: none;
+        width: 100%;
+        margin-top: -5px;
+        height: 40px;
+        font-size: 25px;
+        &:focus{
+            outline: none;
+        } 
+    }
+}
+
+.container {
+    background-color: #fff;
     width: 100%;
     height: 100vh;
 }
-.bg-picture{
-    margin-left: 200px;
-    margin-top: 70px;
-}
-.container .bg-picture img{
-    width: 80%;
-    height: 85vh;
+
+.container img {
+    width: 60%;
+    height: 75vh;
+    margin-top: 90px;
+    margin-left: 250px;
     border-radius: 5px;
-    margin-top: 15px;  
 }
-h3{
+
+h3 {
     font-size: 25px;
-    margin-top: -490px;
-    margin-left: 38%;
+    margin-top: -450px;
+    margin-left: 50%;
     font-family: Yu Gothic Medium;
 }
-p{
+
+p {
     font-size: 20px;
-    margin-left: 26%;
+    margin-left: 40%;
     margin-bottom: 100px;
 
 }
-label{
-    font-size: 14px;
-    margin-left: 26%;
-    color:rgb(140, 137, 137);
+
+label {
+    font-size: 16px;
+    margin-left: 40%;
+    color: rgb(140, 137, 137);
 }
-.text{
-    background-color:rgba(219, 219, 216, 0.114);
+
+.text1{
+    background-color: rgba(219, 219, 216, 0.114);
     width: 460px;
     height: 30px;
     margin-top: 10px;
     font-size: 14px;
-    margin-left: 26%;
+    margin-left: 40%;
     border-left: none;
     border-right: none;
     border-top: none;
-}
-.terms p{
+    &:focus {
+        color: black;
+    }
+  }
+
+.terms p {
     font-size: 14px;
     margin-top: 20px;
-    color:rgb(140, 137, 137);
+    color: rgb(140, 137, 137);
 
 }
-.terms p a{
+
+.terms p a {
     text-decoration: none;
     color: blue;
 }
-.btn{
+
+.btn {
     margin-top: -80px;
-    margin-left: 275px;
+    margin-left: 40%;
 }
-.btn button{
+
+.btn button {
     width: 460px;
     height: 30px;
     background: rgba(195, 101, 101, 0.886);
     color: #fff;
-    font-weight:bold;
+    font-weight: bold;
     border: none;
     margin-bottom: 60px;
 }
-.btn2{
+
+.btn2 {
     margin-top: -50px;
-    margin-left: 275px;
+    margin-left: 40%;
 }
-.btn2 button{
+
+.btn2 button {
     font-size: 20px;
     width: 460px;
     height: 30px;
-    background:#fff;
+    background: #fff;
     color: #fff;
-    font-weight:bold;
-    border: none;  
-}.btn2 button a{
+    font-weight: bold;
+    border: none;
+}
+
+.btn2 button a {
     text-decoration: none;
     color: blue;
     font-weight: bold;
     font-size: 15px;
-}
-@media(max-width: 360px){
-    .container{
-        width: 1100px;
-        height: 200vh;
-    }
-    .container .bg-picture img{
-        margin-top: 150px;
-        margin-left: -150px;
-        width: 1000px;
-        height: 125vh;
-    }
-    h3{
-        margin-top: -900px;
-        font-size: 50px;
-    }
-    p{
-        font-size: 30px;
-    }
-    label{
-        font-size: 30px;
-        color:rgba(0, 0, 0, 0.58);
-    }
-    .text{
-        height: 60px;
-        width: 600px;
-    }
-    .terms p{
-        font-size: 25px;
-        margin-top: 40px;
-    }
-    .btn{
-        margin-top: -50px;
-        margin-left: 230px;
-    }
-    .btn button{
-        width: 600px;
-        height: 50px;
-        font-size: 25px;
-        font-weight: bold;
-        margin-bottom: 140px;
-    }
-    .new-account a{
-        font-size: 30px;
-        margin-left: 270px;
-        font-weight: bold;
-    }
-    
-}
-
-
-.footer-end {
-    background: #4abcc4;
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    left: 0;
-    bottom: 0;
-}
-
-.footer-end-logo i {
-    font-size: 20px;
-    margin-left: -10;
-}
-
-.footer-end-logo p {
-    font-size: 15px;
-    margin-left: -5px;
-    margin-bottom: -10px;
-}
-
-.footer-end-logo #catagories{
-    margin-left: 15px;
-}
-.footer-end-logo #notification{
-    margin-left: 22px;
-}
-.footer-end-logo #account{
-    margin-left: 12px;
-}
-.footer-end-logo #cart{
-    margin-left: -5px;
-}
-
-@media(max-width: 360px) {
-    .footer-end {
-        display: flex;
-    }
-
-    .top {
-        margin-bottom: 80px;
-    }
-
-    .copy {
-        padding-bottom: 40px;
-    }
 }
