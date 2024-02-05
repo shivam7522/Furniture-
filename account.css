@@ -109,21 +109,22 @@ header.active .logo a {
 .login-content{
     background-color:#fff;
     width: 100%;
-    height: 12vh;
+    height: 10vh;
     margin-top: -12px;
 }
 .login-content h2{
     margin-top: 12px;
+    font-size: 20px;
     margin-left: 20px;
     padding-top: 10px;
 }.login-content p{
     margin-left: 20px;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 button{
-    width: 100px;
-    height: 33px;
+    width: 90px;
+    height: 28px;
     background-color: rgba(0, 68, 255, 0.865);
     color:#fff
 }
@@ -145,60 +146,65 @@ button{
 }
 .account-setting{
     width: 100%;
-    height: 23vh;
+    height: 18vh;
     background-color: white;
 }.account-setting h2{
     margin-top: 12px;
+    font-size: 20px;
     margin-left: 20px;
     padding-top: 10px;
 }.language{
     width: 100%;
-    height: 5vh;
+    height: 4vh;
 }
 .language .fa-language{
-    font-size: 25px;
+    font-size: 14px;
     margin-left: 20px;
     margin-top: 12px;
 }
 .language .fa-angle-right{
-    font-size: 20px;
+    font-size: 14px;
     margin-left: 270px;
+    margin-top: -18px;
 }
 .language p{
+    font-size: 14px;
     margin-left: 75px;
-    margin-top: -22px;
+    margin-top: -18px;
 }
 .notification{
     width: 100%;
-    height: 5vh;
+    height: 4vh;
 } 
 .notification img{
-    height: 25px;
+    height: 14px;
     margin-left: 20px;
     margin-top: 12px;
 }
 .notification .fa-angle-right{
-    font-size: 20px;
+    font-size: 14px;
     margin-left: 270px;
 }
 .notification p{
     margin-left: 75px;
+    font-size: 14px;
     margin-top: -22px; 
 }
 .help{
     width: 100%;
-    height: 5vh;
+    height: 4vh;
 }
 .help .fa-headset{
-    font-size: 25px;
+    font-size: 14px;
     margin-left: 20px;
     margin-top: 13px;
 }
 .help .fa-angle-right{
-    font-size: 20px;
+    font-size: 14px;
     margin-left: 270px;
 }
 .help p{
+    font-size: 14px;
     margin-left: 75px;
     margin-top: -22px;
 }
